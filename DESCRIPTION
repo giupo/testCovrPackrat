@@ -1,0 +1,12 @@
+Package: testCovrPackrat
+Title: Testing covr line_exclusions with packrat
+Version: 0.0.0.9000
+Authors@R: person("Giuseppe", "Acito", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Since I've had problems with covr exclusions and packrat, i made up this package for testing covr line_exclusions with packrat. The packages exposes a simple helloworld function in R and Rcpp. This is not a framework, guideline or anyother thing pretending to guide someone on how to use R with packrat and covr or any other packages used here. 
+Depends:
+    R (>= 3.3.1)
+License: BSD_2_clause + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: devtools, covr, testthat
