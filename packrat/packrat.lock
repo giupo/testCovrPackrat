@@ -13,6 +13,11 @@ Source: CRAN
 Version: 0.12.6
 Hash: 79f89fabd832de0a2e60aa05d9027f32
 
+Package: brew
+Source: CRAN
+Version: 1.0-6
+Hash: 931f9972deae0f205e1c78a51f33149b
+
 Package: covr
 Source: CRAN
 Version: 2.1.0
@@ -104,10 +109,27 @@ Version: 1.1.1
 Hash: 69e208c6283398d235e507a658ba8079
 Requires: lazyeval, magrittr
 
+Package: roxygen2
+Source: CRAN
+Version: 5.0.1
+Hash: 3569b3fec94a6f24c9467b675d8b33f8
+Requires: Rcpp, brew, digest, stringi, stringr
+
 Package: rstudioapi
 Source: CRAN
 Version: 0.6
 Hash: fd256f8bfb9a64cc35f98b0decb1a79f
+
+Package: stringi
+Source: CRAN
+Version: 1.1.1
+Hash: 48f2afc5dfecb65ba32a87d38b3533ff
+
+Package: stringr
+Source: CRAN
+Version: 1.1.0
+Hash: 4d21d0063b37a17ea18eaec6acd29bf3
+Requires: magrittr, stringi
 
 Package: testthat
 Source: CRAN

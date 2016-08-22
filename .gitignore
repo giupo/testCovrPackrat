@@ -3,3 +3,4 @@
 .RData
 packrat/*
 !packrat/packrat.lock
+packrat/lib*/
